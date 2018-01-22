@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AliSafePlayer</string>
+    <string name="demo_start_download">下载视频</string>
+    <string name="demo_sts_auth_init">STS 鉴权</string>
+    <string name="demo_sts_auth_init_succ">STS 鉴权成功</string>
+    <string name="demo_start_play">播放视频</string>
+    <string name="demo_flow">Demo流程：\nSTS 鉴权 -> 下载视频 -> 播放视频</string>
+    <string name="demo_downloading">视频 %s 正在下载：%d％</string>
+    <string name="demo_download_succ">视频 %s 下载成功</string>
+    <string name="demo_downloaded">视频 %s 已下载</string>
+
+
+</resources>
