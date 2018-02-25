@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     private void startDownload() {
-        // 要下载的视频VID
+        //TODO 替换成真实的要下载的视频VID
         mVidSts.setVid("b9f396b5674240bd8a38b9688a064968");
         mDownloadManager.setDownloadInfoListener(mDownloadInfoListener);
         mDownloadManager.setRefreshStsCallback(mRefreshStsCallback);

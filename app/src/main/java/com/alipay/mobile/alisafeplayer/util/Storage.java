@@ -74,6 +74,7 @@ public final class Storage {
         return false;
     }
 
+    //TODO 设置安全文件
     public static File getEncryptedFile() {
         return new File(Storage.getAppRootDir(), "encryptedApp.dat");
     }
