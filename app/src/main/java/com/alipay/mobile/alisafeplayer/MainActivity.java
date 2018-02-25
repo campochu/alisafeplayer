@@ -151,6 +151,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         mVidSts.setAkSceret(StsAuthHelper.sAccessKeySecret);
                         mVidSts.setSecurityToken(StsAuthHelper.sSecurityToken);
                         console(getString(R.string.demo_sts_auth_init_succ));
+                    }else {
+                        console(getString(R.string.demo_sts_auth_init_fail));
                     }
                 }
             });

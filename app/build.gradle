@@ -9,9 +9,21 @@ android {
         versionCode 1
         versionName "1.0"
     }
-    buildTypes {
+    signingConfigs {
+
         release {
-            minifyEnabled false
+            storeFile file("$rootDir/release.keystore")
+            storePassword "a111111"
+            keyAlias "ali"
+            keyPassword "a111111"
+        }
+    }
+    buildTypes {
+
+        release {
+            minifyEnabled true
+            multiDexEnabled false
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }

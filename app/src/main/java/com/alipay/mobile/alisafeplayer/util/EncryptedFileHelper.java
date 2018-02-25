@@ -70,7 +70,6 @@ public final class EncryptedFileHelper {
         }
         return hexString;
     }
-
     //这里是将获取到得编码进行16进制转换
     private static String byte2HexFormatted(byte[] arr) {
         StringBuilder str = new StringBuilder(arr.length * 2);
